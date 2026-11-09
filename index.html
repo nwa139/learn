@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<main>
+    <h1>Learn</h1>
+    <div>
+        <button onclick="goToJS()">JavaScript</button>
+    </div>
+</main>
+<script type="module">
+    function goToJS() {
+        window.location.href = "learn.noadaniel.dev/JavaScript/scripts";
+    }
+</script>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+    body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #cccccc;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin: 6px 6px 12px 6px;
+        text-align: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        border: 1px solid black;
+        border-radius: 28px;
+        background-color: #ffffff;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        border: 1px solid #5e5e5e;
+        border-radius: 16px;
+        background-color: #cccccc;
+        gap: 8px;
+    }
+
+    button {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 600;
+        min-width: 200px;
+        padding: 8px 14px;
+        text-align: left;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        background-color: black;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+</style>
+</html>
