@@ -1,0 +1,18 @@
+h1 {
+    margin-left: 5%;
+    background-color: yellow;
+}
+
+div h1 {
+    margin-left: 10%;
+}
+
+div {
+    margin-left: 1%;
+    background-color: lightgrey;
+}
+
+p {
+    margin-left: -1%;
+    background-color: white;
+}

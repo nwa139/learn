@@ -1,0 +1,26 @@
+html {
+    border: 1px red solid;
+}
+
+body {
+    background-color: yellow;
+}
+
+div {
+    background-color: #0088FF;
+}
+
+p {
+    background-color: deeppink;
+}
+
+.invert {
+    color: white;
+    background-color: black;
+}
+
+i {
+    background-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */

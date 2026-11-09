@@ -1,0 +1,41 @@
+h1 {
+    color: red;
+    border-width: 2px;
+    border-color: red;
+}
+
+.dotted {
+    border-style: dotted;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.solid {
+    border-style: solid;
+}
+
+.double {
+    border-style: double;
+}
+
+.groove {
+    border-style: groove;
+    border-color: lightgrey;
+}
+
+.ridge {
+    border-style: ridge;
+    border-color: lightgrey;
+}
+
+.inset {
+    border-style: inset;
+    border-color: lightgrey;
+}
+
+.outset {
+    border-style: outset;
+    border-color: lightgrey;
+}

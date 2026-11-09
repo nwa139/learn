@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<main>
+    <h1>Scripts</h1>
+    <div>
+        <button id="1">Script 1 - Se présenter</button>
+        <button id="2">Script 2 - Question sur une capitale</button>
+        <button id="3">Script 3 - Nombre pair</button>
+        <button id="4">Script 4 - Calculatrice</button>
+        <button id="5">Script 5 - Démarrer le quiz sur les capitales</button>
+        <button id="6">Script 6 - Nombre positif/négatif</button>
+    </div>
+</main>
+<script type="module">
+    import {main as main1} from "./js/nom.js";
+    import {main as main2} from "./js/capitale.js";
+    import {main as main3} from "./js/pair.js";
+    import {main as main4} from "./js/calc.js";
+    import {main as main5} from "./js/quizCapitales.js";
+    import {main as main6} from "./js/positifnegatif.js";
+
+    document.getElementById("1").addEventListener("click", main1);
+    document.getElementById("2").addEventListener("click", main2);
+    document.getElementById("3").addEventListener("click", main3);
+    document.getElementById("4").addEventListener("click", main4);
+    document.getElementById("5").addEventListener("click", main5);
+    document.getElementById("6").addEventListener("click", main6);
+</script>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+    body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #cccccc;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin: 6px 6px 12px 6px;
+        text-align: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        border: 1px solid black;
+        border-radius: 28px;
+        background-color: #ffffff;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        border: 1px solid #5e5e5e;
+        border-radius: 16px;
+        background-color: #cccccc;
+        gap: 8px;
+    }
+
+    button {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 600;
+        min-width: 200px;
+        padding: 8px 14px;
+        text-align: left;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        background-color: black;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+</style>
+</html>

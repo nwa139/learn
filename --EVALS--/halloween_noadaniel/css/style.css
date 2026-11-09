@@ -1,0 +1,191 @@
+body {
+    display: flex;
+    justify-content: stretch;
+    margin: 76px 16px 16px 16px;
+    color: white;
+    background-image: url("../images/fond.webp");
+    background-repeat: repeat;
+    gap: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lexend";
+}
+
+p, figcaption, td, th, li {
+    font-family: "Atkinson";
+}
+
+a {
+    font-family: "Atkinson";
+    color: #4c008e;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 8px;
+    color: orange;
+    background-color: #4c008e;
+}
+
+header h1 {
+    font-family: "Creepster", sans-serif;
+    margin: 12px;
+}
+
+aside, main {
+    padding: 8px 12px;
+    border: 5px #4c008e solid;
+    border-radius: 24px;
+    background-color: #000000;
+}
+
+aside {
+    height: min-content;
+}
+
+aside h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin: 24px 0 4px 0;
+    gap: 16px;
+}
+
+nav a {
+    font-family: Lexend;
+    font-size: 18px;
+    padding: 6px;
+    transition: background-color 0.2s ease-in;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+    background-color: #4c008e;
+}
+
+nav a:hover {
+    background-color: #e17100;
+}
+
+main {
+    flex-grow: 1;
+}
+
+#float {
+    float: right;
+    width: 200px;
+    border-radius: 12px;
+}
+
+#boutonGalerie img {
+    width: 100%;
+    height: 100px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#boutonGalerie div {
+    position: relative;
+    bottom: 92px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#boutonGalerie h2 {
+    padding: 2px 6px;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 12px;
+}
+
+.photos {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 20%;
+    column-count: 2;
+    gap: 8px;
+}
+
+.photos figure {
+    margin: 0;
+    break-inside: avoid;
+}
+
+.photos figure img {
+    width: 100%;
+    border: 1px #e17100 solid;
+    border-radius: 12px;
+}
+
+.photos figure figcaption {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 5px #4c008e solid;
+}
+
+.faible {
+    font-weight: 800;
+    text-align: center;
+    color: #4c008e;
+    background-color: lime;
+}
+
+.moyen {
+    font-weight: 800;
+    text-align: center;
+    color: #4c008e;
+    background-color: #e17100;
+}
+
+.eleve {
+    font-weight: 800;
+    text-align: center;
+    color: black;
+    background-color: red;
+}
+
+.treseleve {
+    font-weight: 800;
+    text-align: center;
+    color: black;
+    background-color: purple;
+}
+
+@font-face {
+    font-family: "Creepster";
+    src: url("polices/creepster.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lexend";
+    src: url("polices/lexend.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Atkinson";
+    src: url("polices/atkinson.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

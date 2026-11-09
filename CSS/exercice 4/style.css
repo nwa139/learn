@@ -1,0 +1,27 @@
+body {
+    background-image: url("fondbleu.gif");
+}
+
+h1 {
+    background-image: url("fond2.gif");
+}
+
+div {
+    background-image: url("fond1.gif");
+}
+
+p {
+    background-color: yellow;
+}
+
+i {
+    background-color: orange;
+}
+
+.rouge {
+    color: red;
+}
+
+body {
+    background-image: url("fondbleu.gif");
+}

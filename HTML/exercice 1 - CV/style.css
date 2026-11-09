@@ -1,0 +1,28 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100vw;
+    margin: 0;
+    background-color: #d3d3d3;
+    padding: 25px 145px 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+hr {
+    border: 1px black solid;
+}
+
+#colonnes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#colonnes img {
+    width: 240px;
+}

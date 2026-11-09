@@ -1,0 +1,34 @@
+h1 {
+    padding-top: 20px;
+    border: 2px black dotted;
+    background-color: yellow;
+}
+
+div h1 {
+    padding-left: 160px;
+}
+
+div {
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+p {
+    background-color: white;
+}
+
+.retrait1 {
+    padding: 5px;
+}
+
+.retrait2 {
+    padding: 30px;
+}
+
+.retrait3 {
+    padding: 0 0 0 300px;
+}
+
+.retrait4 {
+    padding: 20px;
+}

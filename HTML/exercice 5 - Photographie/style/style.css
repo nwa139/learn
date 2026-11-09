@@ -1,0 +1,17 @@
+body {
+    background-color: grey;
+}
+img {
+    height: 100px;
+    width: 150px;
+}
+table {
+    border-width: 3px;
+    border-color: lightgrey dimgrey dimgrey lightgrey;
+    border-style: solid;
+}
+td {
+    border-width: 3px;
+    border-color: dimgrey lightgrey lightgrey dimgrey;
+    border-style: solid;
+}

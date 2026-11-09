@@ -1,0 +1,71 @@
+body {
+    background-color: #DEE0AF;
+}
+
+.tout {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu ul {
+    margin-right: 30px;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+    padding: 6px 32px;
+    list-style-type: none;
+    text-align: center;
+    border: 5px gray solid;
+    background-color: black;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contenu h1 {
+    border-right: 5px darkgreen solid;
+    border-bottom: 3px darkgreen solid;
+}
+
+.contenu a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.contenu ol {
+    list-style-type: upper-roman;
+}
+
+cite {
+    letter-spacing: 5px;
+}
+
+em {
+    text-transform: uppercase;
+}
+
+strong {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table caption {
+    font-style: italic;
+}
+
+table th, table td {
+    color: yellow;
+    border: 4px white solid;
+    background-color: darkgreen;
+}
+
+abbr {
+    text-underline-offset: 4px;
+}
