@@ -1,6 +1,6 @@
 export function main() {
     let noHomework;
-    let homework = +prompt("As-tu finis tes devoirs?");
+    let homework = prompt("As-tu finis tes devoirs?");
     if (homework.toLowerCase() === "oui") {
         noHomework = true;
     } else {
@@ -8,7 +8,7 @@ export function main() {
     }
 
     let isGoodWeather;
-    let weather = +prompt("Fait-il beau dehors?");
+    let weather = prompt("Fait-il beau dehors?");
     if (weather.toLowerCase() === "oui") {
         isGoodWeather = true;
     } else {
